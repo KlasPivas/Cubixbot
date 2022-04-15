@@ -30,7 +30,7 @@ async def SendPepe(ctx):
 
 @bot.command(name="мем")
 async def Sendmem(ctx):
-    await ctx.send(choice(["https://media.discordapp.net/attachments/943690794202697738/964448418636378153/IMG_20220415_155251_468.jpg?width=425&height=566"]))
+    await ctx.send(choice(["https://media.discordapp.net/attachments/943690794202697738/964460779451592784/unknown.png"]))
     
 @bot.command(name="hentai")
 async def Sendhentai(ctx):
