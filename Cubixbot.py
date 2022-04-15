@@ -18,11 +18,7 @@ bot.remove_command('help')
 
 @bot.event
 async def on_ready():
-    print("фуджик мой любимый я готова")
-
-@bot.command(name='Астраг-пидор?')
-async def truthoraction(ctx):
-    await ctx.send("Да")
+    print("мой любимый я готова")
 
 @bot.command(name='Хуй')
 async def truthoraction(ctx):
@@ -40,8 +36,8 @@ async def Sendhentai(ctx):
             b = await response.json()
             await ctx.send(b.get("url"))
             
- @bot.command()
-async def githab(ctx):
+@bot.command(name="Githab")
+async def sendgithab(ctx):
     embed = discord.Embed(
         title="Ссылка",
         description="Ссылка для перехода на Githab",
