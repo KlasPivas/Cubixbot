@@ -36,14 +36,6 @@ async def Sendhentai(ctx):
             b = await response.json()
             await ctx.send(b.get("url"))
             
-@bot.command(name="Github")
-async def sendgithub(ctx):
-    embed = discord.Embed(
-        title="Ссылка",
-        description="Ссылка для перехода на Githab",
-        url='https://github.com/Flandi000/Cubixbot',
-    )
-    await ctx.send(embed=embed)
 
 @bot.event
 async def on_message(message):
