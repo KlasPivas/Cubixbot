@@ -28,6 +28,10 @@ async def truthoraction(ctx):
 async def SendPepe(ctx):
     await ctx.send(choice(["https://media.discordapp.net/attachments/964235425390690305/964252304947691592/Screenshot_1.png?width=449&height=449","https://media.discordapp.net/attachments/964235425390690305/964252305211920424/Screenshot_2.png?width=451&height=449","https://media.discordapp.net/attachments/964235425390690305/964252305446817852/Screenshot_3.png?width=341&height=449","https://media.discordapp.net/attachments/964235425390690305/964252305706872922/Screenshot_4.png?width=384&height=449","https://media.discordapp.net/attachments/964235425390690305/964253022815416340/ffff.png?width=449&height=449","https://media.discordapp.net/attachments/964235425390690305/964253023046107226/7ae9116f57aaa744.png?width=449&height=449","https://media.discordapp.net/attachments/964235425390690305/964253023335493722/a23f306030b56630.png?width=674&height=449","https://media.discordapp.net/attachments/964235425390690305/964253023851405392/wWbIirh6Jjs.jpg"]))
 
+@bot.command(name="мем")
+async def Sendmem(ctx):
+    await ctx.send(choice(["https://media.discordapp.net/attachments/943690794202697738/964448418636378153/IMG_20220415_155251_468.jpg?width=425&height=566"]))
+    
 @bot.command(name="hentai")
 async def Sendhentai(ctx):
     a = ['solog', 'smug', 'feet', 'smallboobs', 'lewdkemo', 'woof', 'gasm', 'solo', '8ball', 'goose', 'cuddle', 'avatar', 'cum', 'slap', 'les', 'v3', 'erokemo', 'bj', 'pwankg', 'nekoapi_v3.1', 'ero', 'hololewd', 'pat', 'gecg', 'holo', 'poke', 'feed', 'fox_girl', 'tits', 'nsfw_neko_gif', 'eroyuri', 'holoero', 'pussy', 'Random_hentai_gif', 'lizard', 'yuri', 'keta', 'neko', 'hentai', 'feetg', 'eron', 'erok', 'baka', 'kemonomimi', 'hug', 'cum_jpg', 'nsfw_avatar', 'erofeet', 'meow', 'kiss', 'wallpaper', 'tickle', 'blowjob', 'spank', 'kuni', 'classic', 'waifu', 'femdom', 'boobs', 'trap', 'lewd', 'pussy_jpg', 'anal', 'futanari', 'ngif', 'lewdk']
