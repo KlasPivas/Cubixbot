@@ -49,9 +49,7 @@ async def on_message(message):
              "name": "алмаз",
              "count": 1,
              "price": 1
-        }
-    ]
-    items = [
+        },
         {
              "name": "золото",
              "count": 2,
