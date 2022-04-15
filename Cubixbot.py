@@ -39,6 +39,7 @@ async def Sendhentai(ctx):
 
 @bot.event
 async def on_message(message):
+    await bot.process_commands(message)
     items = [
         {
              "name": "алмаз",
@@ -60,10 +61,10 @@ async def on_message(message):
                 await message.channel.send("Цена {} за {} шт == {} кубиксов".format(item.get("name"), item.get("count"), item.get("price")))
                 
 @bot.command(name="Github")
-async def sendgithub(ctx):
+async def sendGithub(ctx):
     embed = discord.Embed(
-        title="Ссылка",
-        description="Ссылка для перехода на Githab",
+        title="Тык для перехода",
+        description="Ссылка для перехода на GitHub",
         url='https://github.com/Flandi000/Cubixbot',
     )
     await ctx.send(embed=embed)
