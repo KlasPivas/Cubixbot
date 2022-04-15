@@ -39,6 +39,15 @@ async def Sendhentai(ctx):
         async with session.get(url="https://nekos.life/api/v2/img/" + random.choice(a)) as response:
             b = await response.json()
             await ctx.send(b.get("url"))
+            
+ @bot.command()
+async def githab(ctx):
+    embed = discord.Embed(
+        title="Ссылка",
+        description="Ссылка для перехода на Githab",
+        url='https://github.com/Flandi000/Cubixbot',
+    )
+    await ctx.send(embed=embed)
 
 @bot.event
 async def on_message(message):
